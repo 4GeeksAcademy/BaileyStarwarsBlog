@@ -2,7 +2,7 @@
     General Styles
 */
 
-.App {
+/* .App {
     width: 100vw;
     height: 100vh;
 }
@@ -10,9 +10,20 @@
 body {
     margin: 0;
     padding: 0;
-}
+} */
 .navbar {
-    height: 100%;
-    width: 250px;
-    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    gap: rem;
+    padding: 0 1rem;
+    /* background-color: teal; */
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 // import semantic from 'semantic-ui';
 
-import "../../styles/home.css";
-import Navbar from '../component/navbar.js';
+import "../../styles/index.css";
+// import Navbar from '../component/navbar.js';
 // import { BrowswerRouter as Router, Switch, Route } from 'react-router-dom';
 
 export const Home = () => {
@@ -41,11 +41,6 @@ export const Home = () => {
 	console.log('data', vehicles);
 
 	return (
-		<>
-			{/* <Router>
-				<p>Hello</p>
-				<Navbar />
-			</Router> */}
-		</>
+		<p>hello</p>
 	);
 }
